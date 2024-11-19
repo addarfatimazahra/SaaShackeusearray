@@ -58,13 +58,23 @@ let person={
     age:19 
 }
 let hasAgeProperty= person.hasOwnProperty("age");
-console.log(hasAgeProperty)*/
+console.log(hasAgeProperty)
 // exo 11
 let tab = [1, 2, 3, 4, 5];
 for (tabs in tab)
      { 
         console.log(tab[tabs])
-     }
+     }*/
+    // exo 12
+ let number=[1, 2, 3, 4, 5, 6, 7, 8, 9,
+    10]
+   function numPair(n){
+    return n%2 ===0;
+
+   }
+   let pairNum = number.filter(numPair);
+   console.log(pairNum)
+
 
 
  
