@@ -51,14 +51,21 @@ let car = {
 console.log(car.make,car.model)
 
 car.year=2020;
-console.log(car);*/
+console.log(car);
 // exo 10 
 let person={
     name:"fatimazahra",
     age:19 
 }
 let hasAgeProperty= person.hasOwnProperty("age");
-console.log(hasAgeProperty)
+console.log(hasAgeProperty)*/
+// exo 11
+let tab = [1, 2, 3, 4, 5];
+for (tabs in tab)
+     { 
+        console.log(tab[tabs])
+     }
+
 
  
 
