@@ -42,7 +42,7 @@ let book ={
 }
 console.log( book.title,book.author)
 book.author="Jane Doe";
-console.log( book.title,book.author)*/
+console.log( book.title,book.author)
 // exo 9
 let car = {
      make: "Toyota",
@@ -51,7 +51,14 @@ let car = {
 console.log(car.make,car.model)
 
 car.year=2020;
-console.log(car);
+console.log(car);*/
+// exo 10 
+let person={
+    name:"fatimazahra",
+    age:19 
+}
+let hasAgeProperty= person.hasOwnProperty("age");
+console.log(hasAgeProperty)
 
  
 
