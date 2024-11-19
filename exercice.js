@@ -20,14 +20,21 @@ console.log(frt);
 let animal =["dog", "cat", "bird"]
 console.log(animal);
 delete animal[2];
-console.log(animal);*/
+console.log(animal);
 // exo 6 
  let user=  {
     name:"fatimazahra",
     age:2
  }
  console.log({ name: "Alice", age: 30 });
- 
+ // exo7 
+ let person = {
+    name: "John",
+    age: 25
+};
+console.log("Name:",person.name)
+console.log("Age:",person.age)*/
+
 
 
 
