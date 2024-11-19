@@ -33,7 +33,27 @@ console.log(animal);
     age: 25
 };
 console.log("Name:",person.name)
-console.log("Age:",person.age)*/
+console.log("Age:",person.age)
+//exo8
+let book ={
+   title:"JavaScript 101",
+   author:"John Doe"
+
+}
+console.log( book.title,book.author)
+book.author="Jane Doe";
+console.log( book.title,book.author)*/
+// exo 9
+let car = {
+     make: "Toyota",
+     model:"Corolla"
+}
+console.log(car.make,car.model)
+
+car.year=2020;
+console.log(car);
+
+ 
 
 
 
