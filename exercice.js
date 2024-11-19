@@ -11,6 +11,11 @@ let num  =[10, 20,30,40];
 console.log(num);
 num[3]= 50;
 console.log(num);*/
+// exo4
+let frt =["mango", "peach", "pear"];
+console.log(frt);
+frt.push("avocado");
+console.log(frt);
 
 
 
