@@ -64,7 +64,7 @@ let tab = [1, 2, 3, 4, 5];
 for (tabs in tab)
      { 
         console.log(tab[tabs])
-     }*/
+     }
     // exo 12
  let number=[1, 2, 3, 4, 5, 6, 7, 8, 9,
     10]
@@ -73,8 +73,13 @@ for (tabs in tab)
 
    }
    let pairNum = number.filter(numPair);
-   console.log(pairNum)
+   console.log(pairNum)*/
+//exo13
+let a=[1, 2, 3]  , b=  [4, 5, 6]
 
+
+let concArray = a.concat(b);
+console.log(concArray);
 
 
  
