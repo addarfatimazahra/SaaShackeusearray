@@ -121,7 +121,7 @@ for (  let keys in person){
 //exo19
 let tableau=[1, 2, 3, 4, 5] ;
 let existe= tableau.includes(3);
-console.log(existe)*/
+console.log(existe)
 // exo 20 
 let  person = {
     name:"wiam", 
@@ -130,9 +130,14 @@ let  person = {
 }
 let clonPerson= {...person}
 clonPerson.age=25;
-console.log(clonPerson)
-
-
+console.log(clonPerson)*/
+//exo21
+let tab =  [1, 2, 3, 4, 5]
+function somme (a,b) {
+    return a+b
+}
+let numSomme = tab.reduce(somme)
+console.log(numSomme)
  
 
 
