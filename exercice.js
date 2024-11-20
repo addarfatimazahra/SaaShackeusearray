@@ -79,13 +79,21 @@ let a=[1, 2, 3]  , b=  [4, 5, 6]
 
 
 let concArray = a.concat(b);
-console.log(concArray);*/
+console.log(concArray);
 // exo 14 
  let fruits = ["apple", "banana", "cherry", "date"];
  console.log(fruits)
  delete fruits[1]
- console.log(fruits);
+ console.log(fruits);*/
+ //exo15
+ let numbers = [5, 1, 8, 4, 7]
+
+ numbers.sort((a,b)=>a-b);
+ console.log(numbers);
+ console.log("-------------16");
  
+
+
 
 
  
