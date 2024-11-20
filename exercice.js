@@ -130,14 +130,35 @@ let  person = {
 }
 let clonPerson= {...person}
 clonPerson.age=25;
-console.log(clonPerson)*/
+console.log(clonPerson)
 //exo21
 let tab =  [1, 2, 3, 4, 5]
 function somme (a,b) {
     return a+b
 }
 let numSomme = tab.reduce(somme)
-console.log(numSomme)
+console.log(numSomme)*/
+// exo 22
+let tableau =[
+    {
+        title:"la boite a merveille",
+        author:"med safroui",
+        year:2025
+    }
+    ,
+    {
+        title:"antigone",
+        author:" adene",
+        year:2020
+    }
+    ,
+    {
+        title:"la boite a merveille",
+        author:"john",
+        year:2022
+    }
+]
+console.log(tableau[0].title)
  
 
 
