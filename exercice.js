@@ -158,17 +158,27 @@ let tableau =[
         year:2022
     }
 ]
-console.log(tableau[0].title) */
+console.log(tableau[0].title) 
 //exo 23
  let per1=  {name: "John", age: 25} 
- let per2 = {
-    name:"jane" , age: 22 
+ let per2 = {city: "Paris", job: "Developer"}
 
- }
+ 
  let bookTotale = { ...per1, ...per2}
- console.log(bookTotale)
+ console.log(bookTotale)*/
  
 
+// exo 24 
+ let person ={
+    name:"john",
+    age:25,
+    contry:"casa"
+
+
+ }
+ let proportyName = Object.keys(person);
+ console.log(proportyName)
+ 
 
 
 
