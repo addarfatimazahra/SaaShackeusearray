@@ -98,7 +98,7 @@ console.log(concArray);
  
  }
  let numbrs2= numbrs.map(numDouble)
- console.log(numbrs2)*/
+ console.log(numbrs2)
  // exo 17
  let car= {
     make:"toyote",
@@ -108,7 +108,17 @@ console.log(concArray);
 
  }
  let  prop = Object.keys(car).length;
- console.log(prop)
+ console.log(prop) */
+ //exo 18 
+ let person ={
+    name :"manal",
+    age:18,
+    occupation:"respo"
+ };
+for (  let keys in person){
+    console.log(keys+""+":" + person[keys]);
+}
+
  
 
 
