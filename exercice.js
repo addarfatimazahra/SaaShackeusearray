@@ -90,7 +90,7 @@ console.log(concArray);
 
  numbers.sort((a,b)=>a-b);
  console.log(numbers);
- console.log("-------------16");*/
+ console.log("-------------16");
  // exo 16
   let numbrs =[1, 2, 3, 4];
  function numDouble(n) {
@@ -98,7 +98,17 @@ console.log(concArray);
  
  }
  let numbrs2= numbrs.map(numDouble)
- console.log(numbrs2)
+ console.log(numbrs2)*/
+ // exo 17
+ let car= {
+    make:"toyote",
+    model:"mec",
+    year:2020,
+    color:"bleu" 
+
+ }
+ let  prop = Object.keys(car).length;
+ console.log(prop)
  
 
 
