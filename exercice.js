@@ -137,7 +137,7 @@ function somme (a,b) {
     return a+b
 }
 let numSomme = tab.reduce(somme)
-console.log(numSomme)*/
+console.log(numSomme)
 // exo 22
 let tableau =[
     {
@@ -158,7 +158,15 @@ let tableau =[
         year:2022
     }
 ]
-console.log(tableau[0].title)
+console.log(tableau[0].title) */
+//exo 23
+ let per1=  {name: "John", age: 25} 
+ let per2 = {
+    name:"jane" , age: 22 
+
+ }
+ let bookTotale = { ...per1, ...per2}
+ console.log(bookTotale)
  
 
 
