@@ -117,11 +117,22 @@ console.log(concArray);
  };
 for (  let keys in person){
     console.log(keys+""+":" + person[keys]);
-}*/
+}
 //exo19
 let tableau=[1, 2, 3, 4, 5] ;
 let existe= tableau.includes(3);
-console.log(existe)
+console.log(existe)*/
+// exo 20 
+let  person = {
+    name:"wiam", 
+    age: 23 
+
+}
+let clonPerson= {...person}
+clonPerson.age=25;
+console.log(clonPerson)
+
+
  
 
 
