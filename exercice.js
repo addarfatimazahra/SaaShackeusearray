@@ -84,13 +84,21 @@ console.log(concArray);
  let fruits = ["apple", "banana", "cherry", "date"];
  console.log(fruits)
  delete fruits[1]
- console.log(fruits);*/
+ console.log(fruits);
  //exo15
  let numbers = [5, 1, 8, 4, 7]
 
  numbers.sort((a,b)=>a-b);
  console.log(numbers);
- console.log("-------------16");
+ console.log("-------------16");*/
+ // exo 16
+  let numbrs =[1, 2, 3, 4];
+ function numDouble(n) {
+    return n*2;
+ 
+ }
+ let numbrs2= numbrs.map(numDouble)
+ console.log(numbrs2)
  
 
 
