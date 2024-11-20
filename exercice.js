@@ -108,7 +108,7 @@ console.log(concArray);
 
  }
  let  prop = Object.keys(car).length;
- console.log(prop) */
+ console.log(prop) 
  //exo 18 
  let person ={
     name :"manal",
@@ -117,8 +117,11 @@ console.log(concArray);
  };
 for (  let keys in person){
     console.log(keys+""+":" + person[keys]);
-}
-
+}*/
+//exo19
+let tableau=[1, 2, 3, 4, 5] ;
+let existe= tableau.includes(3);
+console.log(existe)
  
 
 
