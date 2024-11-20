@@ -73,13 +73,19 @@ for (tabs in tab)
 
    }
    let pairNum = number.filter(numPair);
-   console.log(pairNum)*/
+   console.log(pairNum)
 //exo13
 let a=[1, 2, 3]  , b=  [4, 5, 6]
 
 
 let concArray = a.concat(b);
-console.log(concArray);
+console.log(concArray);*/
+// exo 14 
+ let fruits = ["apple", "banana", "cherry", "date"];
+ console.log(fruits)
+ delete fruits[1]
+ console.log(fruits);
+ 
 
 
  
