@@ -1,0 +1,145 @@
+Documentation de la semaine 11/11 /2024    a      20/11/2024 :
+Déclaration du variable :
+La déclaration du variable ce fait sur  trois façon :
+	Let : c’est un type de var avec un portes limite  lequel été déclarer et utiliser une seul fois dans le même scope.  
+	Const : utiliser pour déclarer les constantes 
+	Var : c’est un type de var avec une portée globale déclarée en dehors d’une fonction. 
+Il peut être utilises avec plusieurs valeurs dans le même porté
+Exemple pratique :
+  
+Type de données :
+il existe plusieurs types de données qui peuvent être classés en deux grandes catégories : les types primitifs et les types d'objet : 
+ 	Type primitifs :
+	String ( chaine de caractère ) : ile représente un texte entourer par (") ou bien  (').
+ 
+	Number : représente les entiers et les flots 
+ 
+	Boolean : Représente une valeur (true ou false ) 
+ 
+	Undefined : variable declarer son aucun valeur
+ 
+	Null : représente une valeur vide ou absente 
+ 
+	Symbol : valeur unique pour les objets
+ 
+	Biglnt : représente des entiers qui dépassent la limite de nombre 
+ 
+ 	Type objet :
+	Objet : ensemble de clé valeur 
+ 
+	Array : présente une liste ordonnée de valeurs
+ 
+
+Type des opérateurs : 
+ 	les opérateurs arithmétiques : pour effectuer des opérations mathématiques
+	Addition (+)
+	Soustraction(-)
+	Multiplication(*)
+	Division(/)
+	Modulo(%)
+	Puissance(**)
+ 
+ 	Les opérateurs de comparaison :
+	Egalité (==) : c’est non structure 
+	Egalité(===) : c’est structurer ( vérifier aussi le type )
+	Inégalité ( !=)
+	Inégalité stricte (!==)
+	Supérieur (>)
+	Supérieur ou égal (>=)
+	Inférieur (<)
+	Inférieur ou égal (<=)
+ 	Les opérateurs logiques :
+	ET logique (&&) : Renvoie true si les deux opérandes sont vrais.
+	Ou logique (||): Renvoie true si au moins un des opérandes est vrai.
+	Non logique ( !) : Inverse la valeur booléenne.
+
+
+Les conditions :
+	 Instruction if : exécute un bloc si la condition  est vrai : 
+ 
+	Instruction if … else : exécute si la condition vrai  et autre bloc si faut :
+ 
+	Instruction if .. else if … else : execute plusieurs  condition 
+ 
+	Instruction Switch: utiliser lorsqu’il y a plusieurs conditions 
+ 
+	Operateurs ternaires : de manière d’écrire if else plus petit 
+ 
+Les boucles :
+	Boucle for : pour exécuter un bloc de code un nombre spécifique de fois
+Syntaxe : for (initialisation; condition; incrément) {bloc de code à exécuter }
+ 
+	boucle  while : exécute un bloc de code tant qu'une condition spécifiée est vraie
+Syntaxe : while (condition) {  bloc de code à exécuter }
+ 
+	boucle do...while : est similaire à la boucle while, mais elle le bloc de code sera exécuté au moins une fois, même si la condition est fausse dès le départ
+Syntaxe : do {  bloc de code à exécuter } while (condition);
+ 
+	for in : pour les objets 
+Syntaxe : for (let key in objet) { bloc de code à exécuter }
+ 
+	for  of : pour tableaux et objets 
+Syntaxe : for (let element of iterable) {  bloc de code à exécuter }
+ 
+Déclaration de la fonction :
+Une fonction est un bloc de code qui peut être utiliser lorsqu’il est appelé . 
+Syntaxe : function nomDeLaFonction (paramètre1, paramètre2) {bloc de code à exécuter }
+ 
+La   fonction peut avoir une valeur de return :
+ 
+Fonction prédéfinie de chaine de caractère :
+	lenght : renvoie la longueur d’une chaine 
+ 
+	chartAt(index) : renvoie le caractére a l’index spécifié 
+ 
+	indexof(String) : renvoie l'index de la première occurrence d'une sous-chaîne.
+ 
+	Slice(start, end) : compter a partir de la fin de chaine 
+ 
+	toLowerCase : renvoi les caractères en minuscules
+ 
+	toUpperCase : renvoi les caractères en majuscules
+ 
+	trim() : supprime les espaces 
+ 
+	splite() : divise une chaine en tableau 
+ 
+	starstWith et endsWith : vérifie si chaine commence et termine par sous – chaines 
+ 
+	replace(valeurdeja, newValue) : remplace la premier valeur par nouvelle 
+ 
+Les objets : 
+Un objet est une collection de propriétés, où chaque propriété est une paire clé-valeur. Les objets sont des structures de données essentielles qui permettent de regrouper des informations. 
+ 
+Arrays :
+Un tableau (ou array) est une collection ordonnée de valeurs. Les tableaux peuvent contenir des éléments de différents types, y compris d'autres tableaux, objets.
+ 
+
+
+Les fonctions prédéfinies pour Arrays et objet  :
+	push() : ajouter des éléments au tableaux 
+ 
+	pop() : supprimer dernier élément
+ 
+	map () : créer un nouvaux tableaux  contient les résultas d’appele 
+ 
+	filter() : créer un nouveau tableau avec tous les éléments qui passent le test de la fonction
+ 
+	object.keys() :renvoi un tableau avec des clés d’objets 
+ 
+	object.values() :renvoie un tableu avec les valeurs d’un objet 
+ 
+
+ Git et GitHub :
+Git est l'outil qui gère les versions de votre code, tandis que GitHub est un service en ligne qui vous permet de stocker et de collaborer sur des projets Git. 
+	Le commandes de Git :
+•	git init
+•	git clone [url]
+•	git branch [nom]
+•	git add [fichiers]
+•	git commit -m "message"
+•	git push
+
+
+
+
